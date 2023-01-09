@@ -2,7 +2,35 @@ body {
   font-family: "Roboto";
   margin: 0;
   padding: 0;
+  height: 500px;
+  width:50%;
 }
+h1{
+  display:block;
+  font-size: 7em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+h2{
+  display:block;
+  font-size: 3em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+h3, h4 {
+  display:block;
+  font-size: 4em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+h5{
+  
+  display:block;
+  font-size: 3em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
 hr {
   
 border-style: dotted;
@@ -43,7 +71,7 @@ border-style: dotted;
   height: 100vh;
   background: #ffffff;
   border: 1px solid white;
-  display: fixed;
+  display: auto;
   top: 0px;
 }
 
@@ -204,9 +232,9 @@ border-style: dotted;
   }
 }
 .submit-btn {
-  height: 45px;
-  width: 200px;
-  font-size: 15px;
+  height: 80px;
+  width: 250px;
+  font-size: 30px;
   background-color: #00c09d;
   border: 1px solid #00ab8c;
   color: #fff;
